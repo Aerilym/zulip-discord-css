@@ -161,15 +161,19 @@ body > .header {
 
 .column-middle{
     margin-right: 0 !important;
-    margin-left: 260px !important;
+    margin-left: 200px !important;
+}
+
+.left-sidebar{
+    width: 200px !important;
 }
 
 #buddy_list_wrapper{
-    max-height: 310px !important;
+    max-height: 800px !important;
 }
 
 #stream-filters-container{
-    max-height: 500px !important;
+    max-height: 800px !important;
 }
 
 table {
@@ -191,4 +195,12 @@ table {
 .youtube-video img {
     width: fit-content !important;
     height: fit-content !important;
+}
+
+#add-stream-link a{
+    visibility: hidden !important;
+}
+
+#add-stream-link a i{
+    visibility: visible !important;
 }
